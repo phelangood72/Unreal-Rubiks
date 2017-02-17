@@ -1,0 +1,509 @@
+﻿[2017.02.04-16.57.31:605][  0]Log file open, 02/04/17 10:57:31
+[2017.02.04-16.57.31:605][  0]LogInit:Display: Running engine for game: Rubiks
+[2017.02.04-16.57.31:605][  0]LogInit:Display: RandInit(-1889351495) SRandInit(-1889351495).
+[2017.02.04-16.57.31:605][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2017.02.04-16.57.31:605][  0]LogStats: Stats thread started
+[2017.02.04-16.57.31:605][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2017.02.04-16.57.31:605][  0]LogInit: API Version: 2579680
+[2017.02.04-16.57.31:605][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2017.02.04-16.57.31:605][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2017.02.04-16.57.31:605][  0]LogInit: Build Configuration: Development
+[2017.02.04-16.57.31:605][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2017.02.04-16.57.31:605][  0]LogInit: Command line: -EpicPortal 
+[2017.02.04-16.57.31:605][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2017.02.04-16.57.31:605][  0]LogInit: Rocket: 1
+[2017.02.04-16.57.31:614][  0]LogInit: Using libcurl 7.41.0
+[2017.02.04-16.57.31:614][  0]LogInit:  - built for x86_64-pc-win32
+[2017.02.04-16.57.31:614][  0]LogInit:  - supports SSL with WinSSL
+[2017.02.04-16.57.31:614][  0]LogInit:  - other features:
+[2017.02.04-16.57.31:614][  0]LogInit:      CURL_VERSION_SSL
+[2017.02.04-16.57.31:614][  0]LogInit:      CURL_VERSION_IPV6
+[2017.02.04-16.57.31:614][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2017.02.04-16.57.31:614][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2017.02.04-16.57.31:614][  0]LogInit:      CURL_VERSION_IDN
+[2017.02.04-16.57.31:614][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2017.02.04-16.57.31:614][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2017.02.04-16.57.31:614][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2017.02.04-16.57.31:614][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2017.02.04-16.57.31:614][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2017.02.04-16.57.31:622][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2017.02.04-16.57.31:632][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2017.02.04-16.57.31:636][  0]LogInit: Object subsystem initialized
+[2017.02.04-16.57.31:637][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2017.02.04-16.57.31:637][  0]LogConsoleResponse:Warning:   Found in ini file 'X:/AlexP/Unreal Projects/Rubiks/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2017.02.04-16.57.31:637][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2017.02.04-16.57.31:637][  0]LogConsoleResponse:Warning:   Found in ini file 'X:/AlexP/Unreal Projects/Rubiks/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2017.02.04-16.57.31:637][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2017.02.04-16.57.31:637][  0]LogConsoleResponse:Warning:   Found in ini file 'X:/AlexP/Unreal Projects/Rubiks/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2017.02.04-16.57.31:637][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.04-16.57.31:637][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.04-16.57.31:644][  0]LogInit: Computer: ALEX
+[2017.02.04-16.57.31:644][  0]LogInit: User: AlexP
+[2017.02.04-16.57.31:644][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.02.04-16.57.31:644][  0]LogInit: High frequency timer resolution =3.984646 MHz
+[2017.02.04-16.57.31:644][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.04-16.57.31:644][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.04-16.57.31:644][  0]LogMemory: Process Physical Memory: 49.89 MB used, 49.89 MB peak
+[2017.02.04-16.57.31:644][  0]LogMemory: Process Virtual Memory: 24.73 MB used, 24.73 MB peak
+[2017.02.04-16.57.31:644][  0]LogMemory: Physical Memory: 5152.77 MB used, 16325.80 MB total
+[2017.02.04-16.57.31:644][  0]LogMemory: Virtual Memory: 317.19 MB used, 134217728.00 MB total
+[2017.02.04-16.57.31:671][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2017.02.04-16.57.31:819][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2017.02.04-16.57.32:537][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 980 Ti (Feature Level 11_0)
+[2017.02.04-16.57.32:537][  0]LogD3D11RHI: Adapter has 6102MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 2 output[s]
+[2017.02.04-16.57.32:538][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2017.02.04-16.57.32:538][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8162MB of shared system memory, 0 output[s]
+[2017.02.04-16.57.32:538][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2017.02.04-16.57.32:542][  0]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.32:542][  0]LogD3D11RHI: !Direct3DDevice
+[2017.02.04-16.57.32:542][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.04-16.57.32:925][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.04-16.57.32:945][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.04-16.57.33:443][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2017.02.04-16.57.33:454][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.04-16.57.33:464][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.04-16.57.33:475][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.04-16.57.33:486][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.04-16.57.33:495][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.04-16.57.33:503][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.04-16.57.33:513][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.04-16.57.33:522][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.04-16.57.33:531][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.04-16.57.33:540][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.04-16.57.33:549][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.04-16.57.33:587][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.04-16.57.33:596][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.04-16.57.33:605][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.04-16.57.33:615][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.04-16.57.33:615][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.04-16.57.33:764][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.04-16.57.33:800][  0]LogDerivedDataCache: Loaded boot cache 0.04s 53MB C:/Users/AlexP/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2017.02.04-16.57.33:800][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AlexP/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2017.02.04-16.57.33:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file X:/AlexP/Unreal Projects/Rubiks/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.04-16.57.33:800][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.04-16.57.33:800][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file X:/AlexP/Unreal Projects/Rubiks/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.04-16.57.33:800][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.04-16.57.33:904][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.04-16.57.33:915][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AlexP/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.04-16.57.34:048][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.04-16.57.34:101][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2017.02.04-16.57.34:101][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2017.02.04-16.57.34:119][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.04-16.57.34:119][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.04-16.57.34:325][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.04-16.57.34:991][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.04-16.57.35:300][  0]SourceControl: Info Source control is disabled
+[2017.02.04-16.57.35:300][  0]SourceControl: Info Source control is disabled
+[2017.02.04-16.57.35:307][  0]SourceControl: Info Source control is disabled
+[2017.02.04-16.57.35:314][  0]SourceControl: Info Source control is disabled
+[2017.02.04-16.57.35:475][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2017.02.04-16.57.35:475][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2017.02.04-16.57.35:527][  0]LogEngine: Initializing Engine...
+[2017.02.04-16.57.35:529][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2017.02.04-16.57.35:530][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2017.02.04-16.57.35:623][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.02.04-16.57.35:637][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2017.02.04-16.57.35:645][  0]LogInit: FAudioDevice initialized.
+[2017.02.04-16.57.35:667][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/AlexP/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2017.02.04-16.57.35:672][  0]LogInit: Texture streaming: Disabled
+[2017.02.04-16.57.35:689][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2017.02.04-16.57.35:689][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2017.02.04-16.57.35:689][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId d142d89d45630e10facd90a00124e400|81f51df3a83c4d4093fcb430eabdac27|a9f68bf6-b6c7-4576-91f3-4f64e0f2191f
+[2017.02.04-16.57.35:689][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2017.02.04-16.57.35:710][  0]LogInit: Transaction tracking system initialized
+[2017.02.04-16.57.35:800][  0]BlueprintLog: New page: Editor Load
+[2017.02.04-16.57.35:828][  0]LogAssetRegistry: FAssetRegistry took 0.0104 seconds to start up
+[2017.02.04-16.57.35:828][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2017.02.04-16.57.36:247][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Basics/FeaturePacks.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.02.04-16.57.36:339][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2017.02.04-16.57.36:377][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2017.02.04-16.57.36:377][  0]LogConsoleResponse:Display: 
+[2017.02.04-16.57.36:444][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2017.02.04-16.57.36:573][  0]SourceControl: Info Source control is disabled
+[2017.02.04-16.57.36:573][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.04-16.57.36:574][  0]LightingResults: New page: Lighting Build
+[2017.02.04-16.57.36:583][  0]MapCheck: New page: Map Check
+[2017.02.04-16.57.36:583][  0]LightingResults: New page: Lighting Build
+[2017.02.04-16.57.36:591][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171E12D8B80
+[2017.02.04-16.57.36:841][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.02.04-16.57.36:846][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.04-16.57.36:852][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.04-16.57.36:882][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.727ms to complete.
+[2017.02.04-16.57.36:883][  0]LogFileHelpers: Loading map 'Template_Default' took 0.309
+[2017.02.04-16.57.36:983][  0]LogCollectionManager: Loaded 0 collections in 0.001452 seconds
+[2017.02.04-16.57.36:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0045 seconds. Added 1792 classes and 301 folders.
+[2017.02.04-16.57.37:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.04-16.57.37:045][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.04-16.57.37:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.02.04-16.57.37:090][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.04-16.57.37:091][  0]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.37:094][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.04-16.57.37:116][  0]LogLoad: Full Startup: 6.40 seconds (BP compile: 0.12 seconds)
+[2017.02.04-16.57.37:449][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.04-16.57.37:489][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2017.02.04-16.57.37:503][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.04-16.57.37:590][  0]LogRenderer: Reallocating scene render targets to support 2176x840 (Frame:2).
+[2017.02.04-16.57.38:182][  3]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.38:840][  6]LogAssetRegistry: Asset discovery search completed in 3.0228 seconds
+[2017.02.04-16.57.45:662][817]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.45:677][817]LogMaterial: Missing cached shader map for material M_ClearCoat, compiling. 
+[2017.02.04-16.57.45:713][817]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.45:735][817]LogMaterial: Missing cached shader map for material M_ClearCoat, compiling. 
+[2017.02.04-16.57.45:739][817]LogMaterial: 0.000028 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.02.04-16.57.45:762][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.02.04-16.57.46:614][890]MaterialEditorStats: Info Base pass shader with static lighting: 77 instructions
+[2017.02.04-16.57.46:614][890]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 49 instructions
+[2017.02.04-16.57.46:614][890]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.02.04-16.57.46:614][890]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.02.04-16.57.46:921][925]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.48:040][ 55]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/greenCube.greenCube:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/greenCube.greenCube:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:226][ 19]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/greenCube.greenCube:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.57.56:230][ 19]LogAIModule: Creating AISystem for world greenCube
+[2017.02.04-16.57.56:260][ 19]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.12:827][769]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.12:843][769]Cmd: MAP LOAD FILE="X:/AlexP/Unreal Projects/Rubiks/Content/greenCube.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.04-16.58.12:843][769]LightingResults: New page: Lighting Build
+[2017.02.04-16.58.12:854][769]LoadErrors: New page: Loading map: greenCube.umap
+[2017.02.04-16.58.12:854][769]MapCheck: New page: Map Check
+[2017.02.04-16.58.12:854][769]LightingResults: New page: Lighting Build
+[2017.02.04-16.58.12:860][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171D91A7880
+[2017.02.04-16.58.12:904][769]LogAIModule: Creating AISystem for world greenCube
+[2017.02.04-16.58.12:906][769]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.04-16.58.12:933][769]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.04-16.58.12:962][769]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.449ms to complete.
+[2017.02.04-16.58.12:963][769]LogFileHelpers: Loading map 'greenCube' took 0.120
+[2017.02.04-16.58.14:407][934]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/greenCube.greenCube:PersistentLevel.AtmosphericFog_1.ArrowComponent0 and ArrowComponent /Game/Rubiks.Rubiks:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/greenCube.greenCube:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Rubiks.Rubiks:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by AtmosphericFogComponent /Game/greenCube.greenCube:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 and AtmosphericFogComponent /Game/Rubiks.Rubiks:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/greenCube.greenCube:PersistentLevel.AtmosphericFog_1.Sprite and BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/greenCube.greenCube:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:419][934]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/greenCube.greenCube:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Rubiks.Rubiks:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Game/greenCube.greenCube:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Rubiks.Rubiks:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube10.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube11.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube11.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube12.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube12.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube13.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube13.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube14.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube14.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube15.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube15.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube16.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube16.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube17.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube17.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube18.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube18.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube19.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube19.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube2.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube20.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube20.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube21.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube21.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube22.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube22.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube23.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube23.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube24.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube24.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube25.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube25.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube26.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube26.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube27.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube27.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube3.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube4.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube5.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube5.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube6.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube6.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube7.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube7.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube8.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube8.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube9.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube9.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:420][934]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube_4.StaticMeshComponent0 and StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.14:422][934]LogAIModule: Creating AISystem for world Rubiks
+[2017.02.04-16.58.14:437][934]Cmd: MAP LOAD FILE="X:/AlexP/Unreal Projects/Rubiks/Content/Rubiks.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.04-16.58.14:438][934]LightingResults: New page: Lighting Build
+[2017.02.04-16.58.14:449][934]LoadErrors: New page: Loading map: Rubiks.umap
+[2017.02.04-16.58.14:449][934]MapCheck: New page: Map Check
+[2017.02.04-16.58.14:449][934]LightingResults: New page: Lighting Build
+[2017.02.04-16.58.14:455][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171D5ABFE20
+[2017.02.04-16.58.14:498][934]LogAIModule: Creating AISystem for world Rubiks
+[2017.02.04-16.58.14:500][934]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.04-16.58.14:527][934]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.04-16.58.14:556][934]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.958ms to complete.
+[2017.02.04-16.58.14:556][934]LogFileHelpers: Loading map 'Rubiks' took 0.119
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Rubiks.Rubiks:PersistentLevel.AtmosphericFog_1.ArrowComponent0 and ArrowComponent /Game/greenCube.greenCube:PersistentLevel.AtmosphericFog_1.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Rubiks.Rubiks:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/greenCube.greenCube:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by AtmosphericFogComponent /Game/Rubiks.Rubiks:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0 and AtmosphericFogComponent /Game/greenCube.greenCube:PersistentLevel.AtmosphericFog_1.AtmosphericFogComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.AtmosphericFog_1.Sprite and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.AtmosphericFog_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Game/Rubiks.Rubiks:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/greenCube.greenCube:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Game/Rubiks.Rubiks:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/greenCube.greenCube:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Game/Rubiks.Rubiks:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/greenCube.greenCube:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Game/Rubiks.Rubiks:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/greenCube.greenCube:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube10.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube10.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube11.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube11.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube12.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube12.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube13.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube13.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube14.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube14.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube15.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube15.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube16.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube16.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube17.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube17.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube18.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube18.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube19.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube19.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:001][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube2.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube2.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube20.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube20.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube21.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube21.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube22.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube22.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube23.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube23.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube24.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube24.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube25.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube25.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube26.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube26.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube27.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube27.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube3.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube3.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube4.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube5.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube5.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube6.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube6.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube7.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube7.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube8.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube8.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube9.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube9.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:002][101]LogUObjectGlobals:Warning: Guid is in use by StaticMeshComponent /Game/Rubiks.Rubiks:PersistentLevel.Cube_4.StaticMeshComponent0 and StaticMeshComponent /Game/greenCube.greenCube:PersistentLevel.Cube_4.StaticMeshComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2017.02.04-16.58.16:003][101]LogAIModule: Creating AISystem for world greenCube
+[2017.02.04-16.58.16:022][101]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.19:757][101]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.19:773][101]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.19:785][101]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.24:808][684]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.25:254][736]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.26:652][903]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.26:689][903]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.31:193][442]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.58.31:348][461]LogWindows:Warning: CreateProc failed (193) C:/Users/AlexP/AppData/Local/Temp/UE4_SuggestedIDEInstaller.exe /PromptRestart /ChainingPackage EpicGames_UE4
+[2017.02.04-16.59.39:455][380]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.59.40:606][517]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.59.46:323][202]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.59.47:945][396]LogD3D11RHI: InitD3DDevice
+[2017.02.04-16.59.53:911][112]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.02.04-17.00.11:581][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2017.02.04-17.00.34:900][950]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.02.04-17.00.41:391][722]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube7)
+[2017.02.04-17.00.41:411][722]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.00.43:040][913]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.00.43:111][913]LogRenderer: Reallocating scene render targets to support 2576x1328 (Frame:18305).
+[2017.02.04-17.00.43:219][915]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 447/400 MB (ok in editor, bad on fixed memory platform)
+[2017.02.04-17.00.59:869][828]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.01.00:477][900]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.01.15:323][558]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 445/400 MB (ok in editor, bad on fixed memory platform)
+[2017.02.04-17.01.15:781][612]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.01.16:198][660]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.01.17:546][821]LogD3D11RHI: InitD3DDevice
+[2017.02.04-17.01.17:565][823]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 445/400 MB (ok in editor, bad on fixed memory platform)
+[2017.02.04-17.01.23:011][475]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 445/400 MB (ok in editor, bad on fixed memory platform)
+[2017.02.04-17.01.25:301][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171D5C87880
+[2017.02.04-17.01.25:361][741]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.04-17.01.25:643][742]Cmd: QUIT_EDITOR
+[2017.02.04-17.01.25:810][742]LogExit: Preparing to exit.
+[2017.02.04-17.01.26:177][742]LogExit: Editor shut down
+[2017.02.04-17.01.26:177][742]LogExit: Transaction tracking system shut down
+[2017.02.04-17.01.26:178][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171D5ABE980
+[2017.02.04-17.01.26:178][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171D5ABD580
+[2017.02.04-17.01.26:179][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171F22CB100
+[2017.02.04-17.01.26:179][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171D93AE980
+[2017.02.04-17.01.26:191][742]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000171F1ECD940
+[2017.02.04-17.01.26:287][742]LogExit: Object subsystem successfully closed.
+[2017.02.04-17.01.26:305][742]LogD3D11RHI: Shutdown
+[2017.02.04-17.01.26:305][742]LogD3D11RHI: CleanupD3DDevice
+[2017.02.04-17.01.26:360][742]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (190)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module MaterialEditor (189)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2017.02.04-17.01.26:373][742]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2017.02.04-17.01.26:374][742]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2017.02.04-17.01.27:310][742]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2017.02.04-17.01.27:311][742]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2017.02.04-17.01.27:312][742]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2017.02.04-17.01.27:312][742]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2017.02.04-17.01.27:312][742]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2017.02.04-17.01.27:312][742]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2017.02.04-17.01.27:312][742]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2017.02.04-17.01.27:312][742]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2017.02.04-17.01.27:428][742]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2017.02.04-17.01.27:428][742]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2017.02.04-17.01.27:428][742]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2017.02.04-17.01.27:428][742]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2017.02.04-17.01.27:429][742]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2017.02.04-17.01.27:651][742]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2017.02.04-17.01.27:679][742]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2017.02.04-17.01.27:680][742]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2017.02.04-17.01.27:681][742]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2017.02.04-17.01.27:681][742]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2017.02.04-17.01.27:781][742]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2017.02.04-17.01.27:781][742]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2017.02.04-17.01.27:781][742]LogModuleManager: Shutting down and abandoning module Media (77)
+[2017.02.04-17.01.27:781][742]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2017.02.04-17.01.27:782][742]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2017.02.04-17.01.27:783][742]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2017.02.04-17.01.27:783][742]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2017.02.04-17.01.27:783][742]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2017.02.04-17.01.27:790][742]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2017.02.04-17.01.27:790][742]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2017.02.04-17.01.27:790][742]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module Core (56)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2017.02.04-17.01.27:791][742]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2017.02.04-17.01.27:798][742]LogDerivedDataCache: Shutdown
+[2017.02.04-17.01.27:798][742]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2017.02.04-17.01.27:798][742]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2017.02.04-17.01.27:798][742]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2017.02.04-17.01.27:798][742]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2017.02.04-17.01.27:799][742]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2017.02.04-17.01.27:800][742]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2017.02.04-17.01.27:801][742]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2017.02.04-17.01.27:801][742]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2017.02.04-17.01.27:801][742]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2017.02.04-17.01.27:802][742]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2017.02.04-17.01.27:802][742]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.04-17.01.27:805][742]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.04-17.01.27:806][742]LogExit: Exiting.
+[2017.02.04-17.01.27:811][742]Log file closed, 02/04/17 11:01:27
